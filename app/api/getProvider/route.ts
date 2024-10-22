@@ -1,5 +1,5 @@
 // app/api/getProvider/route.ts
-import { getProvider } from '@how2validate/how2validate';
+const { getProvider } = await import('@how2validate/how2validate');
 
 interface ProvidersResponse {
   status: number;

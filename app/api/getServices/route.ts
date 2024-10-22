@@ -1,5 +1,5 @@
 // app/api/getServices/route.ts
-import { getService } from '@how2validate/how2validate';
+const { getService } = await import('@how2validate/how2validate');
 
 export async function GET(request) {
   const { searchParams } = new URL(request.url);

@@ -1,5 +1,5 @@
 // app/api/validate/route.ts
-import { validate } from '@how2validate/how2validate';
+const { validate } = await import('@how2validate/how2validate');
 
 export async function POST(request) {
   // Destructure the parameters from the request body
