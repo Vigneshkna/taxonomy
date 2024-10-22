@@ -4,7 +4,6 @@ import {
   Check,
   ChevronLeft,
   ChevronRight,
-  Command,
   CreditCard,
   File,
   FileText,
@@ -18,9 +17,9 @@ import {
   Pizza,
   Plus,
   Settings,
+  ShieldCheck,
   SunMedium,
   Trash,
-  Twitter,
   User,
   X,
   type Icon as LucideIcon,
@@ -29,7 +28,7 @@ import {
 export type Icon = LucideIcon
 
 export const Icons = {
-  logo: Command,
+  logo: ShieldCheck,
   close: X,
   spinner: Loader2,
   chevronLeft: ChevronLeft,
@@ -67,6 +66,5 @@ export const Icons = {
       ></path>
     </svg>
   ),
-  twitter: Twitter,
   check: Check,
 }
